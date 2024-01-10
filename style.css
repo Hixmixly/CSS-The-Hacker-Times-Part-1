@@ -1,1 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    background-color: #eee;
+  }
+  .date {
+    font-family: monospace;
+  }
+  header h1 {
+    text-align: center;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  h5 {
+      color: red;
+      }
+  
+nav {
+    text-align: center; 
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    margin-left: 10px;
+    position: sticky;
+    top: 10px;
+    background-color: white
+  }
+  
+nav li {
+  color:  #777;
+  padding:2px ;
+  font-family: ;
+  font-size: 13px;
+  display: inline-block;
+  }
+.newspaper-container {
+    box-shadow:  #ddd;
+    width: 700px;
+    padding: 20px; ;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 150px;
+    }
+  
+ main p {
+   margin-right: 10px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  .more-articles {
+  border-top: solid ;
+  }
+  .more-articles section {
+      display: inline-block;
+      justify-content: center;
+      width: 40%;
+      padding: 15px;
+      margin: 5px;
+     }
+  h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
